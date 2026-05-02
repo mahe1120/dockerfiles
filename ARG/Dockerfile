@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${version:-8}
 ENV course="devops" \
     duration="120hrs" \
     Trainer="siva"
