@@ -4,3 +4,4 @@ ENV course="devops" \
     Trainer="siva"
 ARG USERNAME=Mahender
 RUN echo "Hello user : ${USERNAME}"
+CMD ["sleep", "100"]
